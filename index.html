@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Rails | Pre-Order</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                PAYMENT <span>RAILS</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#audience">Audience</a></li>
+                <li><a href="#author">Author</a></li>
+                <li><a href="#preorder">Reserve</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <span class="tag">
+                    COMING SEPTEMBER 2026
+                </span>
+
+                <h1>Payment Rails</h1>
+
+                <h2>
+                    A Technical Handbook for Instant Payments in Emerging Markets
+                </h2>
+
+                <p>
+                    A practical field guide for engineers, architects,
+                    regulators and advisors building the next generation
+                    of instant payment systems.
+                </p>
+
+                <a href="#preorder" class="btn-primary">
+                    Reserve My Copy
+                </a>
+
+                <div class="hero-features">
+
+                    <div class="feature-card">
+                        <h3>📘</h3>
+                        <p>First Edition</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>📅</h3>
+                        <p>1 September 2026</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h3>🌍</h3>
+                        <p>Worldwide Release</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img src="assets/images/cover.jpeg" alt="Payment Rails Book Cover">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+
+        <h2>About the Book</h2>
+
+        <p class="section-text">
+
+            Payment Rails is a practical field guide for engineers,
+            architects, regulators and advisors building the next
+            generation of instant payment systems.
+
+            The book combines practical implementation experience,
+            industry standards and architectural guidance for
+            modern payment infrastructures across emerging markets.
+
+        </p>
+    </section>
+
+    <section id="author">
+
+        <h2>About the Author</h2>
+        <div class="hero-content">
+
+            <div>
+
+                <p>
+
+                    Dr Beven Fadzisai Shapeta is a recognised expert in
+                    digital payments, financial market infrastructure and
+                    payment systems. His work spans architecture,
+                    governance and implementation of instant payment
+                    solutions across emerging markets.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="assets/images/author.png" width="280">
+
+            </div>
+
+    </section>
+
+    <section id="audience">
+
+        <h2>Who Should Read This Book?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Engineers</h3>
+                <p>Build resilient payment systems.</p>
+            </div>
+
+            <div class="card">
+                <h3>Architects</h3>
+                <p>Design modern payment infrastructure.</p>
+            </div>
+
+            <div class="card">
+                <h3>Regulators</h3>
+                <p>Understand governance and compliance.</p>
+            </div>
+
+            <div class="card">
+                <h3>Consultants</h3>
+                <p>Apply proven implementation strategies.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="preorder">
+
+        <h2>Reserve Your Copy</h2>
+
+        <form name="preorder" method="POST" data-netlify="true">
+
+            <input type="hidden" name="form-name" value="preorder">
+
+            <input type="text" name="name" placeholder="Full Name" required>
+
+            <input type="email" name="email" placeholder="Email Address" required>
+
+            <input type="text" name="organisation" placeholder="Company">
+
+            <input type="number" name="copies" placeholder="Number of Copies" min="1" required>
+
+            <textarea name="comments" placeholder="Comments"></textarea>
+
+            <button type="submit">
+
+                Reserve My Copy
+
+            </button>
+
+        </form>
+
+    </section>
+    <p class="reservation-note">
+        <strong>Note:</strong> This is a pre-order reservation only. No payment is required at this stage. By
+        submitting this form, you are expressing your interest in purchasing <em>Payment Rails</em>. You will be
+        contacted by Dr. Beven Fadzisai Shapeta when the book becomes available for purchase and distribution.
+    </p>
+    <p class="privacy-note">
+        We respect your privacy. Your information will only be used to communicate with you regarding your pre-order and
+        will not be shared with third parties.
+    </p>
+
+    <footer>
+
+        <p>
+
+            © 2026 Payment Rails
+
+        </p>
+
+        <p>
+
+            Developed by Timomo Consulting
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
