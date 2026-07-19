@@ -488,3 +488,45 @@ cursor:pointer;
     color: #6B7280;
 
 }
+
+.price-box{
+
+    margin:30px 0;
+
+    display:inline-block;
+
+    background:#ffffff;
+
+    border-left:5px solid #10B981;
+
+    padding:18px 25px;
+
+    border-radius:10px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.price-label{
+
+    display:block;
+
+    color:#6B7280;
+
+    font-size:14px;
+
+    margin-bottom:5px;
+
+}
+
+.price-box h3{
+
+    font-size:34px;
+
+    color:#10B981;
+
+    margin:0;
+
+    font-weight:700;
+
+}
