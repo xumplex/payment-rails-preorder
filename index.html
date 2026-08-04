@@ -176,32 +176,35 @@
 
         <h2>Reserve Your Copy</h2>
 
-        <form name="preorder" method="POST" data-netlify="true">
+        <form
+  name="preorder"
+  method="POST"
+  action="/thank-you.html"
+  data-netlify="true"
+  netlify-honeypot="bot-field">
 
-            <input type="hidden" name="form-name" value="preorder">
+    <input type="hidden" name="form-name" value="preorder">
 
-            <input type="text" name="name" placeholder="Full Name" required>
+    <p hidden>
+        <label>
+            Don't fill this out if you're human:
+            <input name="bot-field">
+        </label>
+    </p>
 
-            <input type="email" name="email" placeholder="Email Address" required>
+    <input type="text" name="name" placeholder="Full Name" required>
 
-            <input type="text" name="organisation" placeholder="Company">
+    <input type="email" name="email" placeholder="Email Address" required>
 
-            <input type="number" name="copies" placeholder="Number of Copies" min="1" required>
+    <input type="text" name="organisation" placeholder="Company">
 
-            <textarea name="comments" placeholder="Comments"></textarea>
+    <input type="number" name="copies" placeholder="Number of Copies" min="1" required>
 
-            <div class="price-box">
-                <span class="price-label">Pre-Order Price</span>
-                <h3>USD $199.00</h3>
-            </div>
+    <textarea name="comments" placeholder="Comments"></textarea>
 
-            <button type="submit">
+    <button type="submit">Reserve My Copy</button>
 
-                Reserve My Copy
-
-            </button>
-
-        </form>
+</form>
 
     </section>
     <p class="reservation-note">
