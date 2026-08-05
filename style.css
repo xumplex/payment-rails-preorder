@@ -474,6 +474,62 @@ cursor:pointer;
 
 }
 
+.pricing-banner{
+
+    background:linear-gradient(135deg,#0B1F3A,#133B63);
+
+    color:white;
+
+    padding:30px;
+
+    border-radius:16px;
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.pricing-label{
+
+    display:block;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-size:13px;
+
+    color:#CBD5E1;
+
+    margin-bottom:10px;
+
+}
+
+.pricing-amount{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    color:#FBBF24;
+
+    margin-bottom:12px;
+
+}
+
+.pricing-banner p{
+
+    margin:0;
+
+    color:#E5E7EB;
+
+    font-size:16px;
+
+}
+
 .reservation-note strong {
 
     color: #0B1F3A;
